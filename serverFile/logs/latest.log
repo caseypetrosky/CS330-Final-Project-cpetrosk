@@ -1,0 +1,74 @@
+[20:43:29] [ServerMain/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[20:43:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:43:33] [ServerMain/INFO]: Loaded 1461 recipes
+[20:43:33] [ServerMain/INFO]: Loaded 1574 advancements
+[20:43:33] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[20:43:33] [Server thread/INFO]: Loading properties
+[20:43:33] [Server thread/INFO]: Default game type: SURVIVAL
+[20:43:33] [Server thread/INFO]: Generating keypair
+[20:43:33] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:281) ~[?:?]
+	at java.base/java.lang.System$In.read(System.java:1871) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:328) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:388) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:279) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:322) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:186) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:183) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:166) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:333) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:400) ~[?:?]
+	at aro$1.run(SourceFile:189) [server-1.21.10.jar:?]
+[20:43:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:43:33] [Server thread/INFO]: Using default channel type
+[20:43:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:43:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:43:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:43:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:43:33] [Server thread/INFO]: Preparing level "world"
+[20:43:33] [Server thread/INFO]: Loading 0 persistent chunks...
+[20:43:33] [Server thread/INFO]: Time elapsed: 11 ms
+[20:43:33] [Server thread/INFO]: Done (0.153s)! For help, type "help"
+[20:44:33] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:51:46] [Server thread/INFO]: Caspet[/127.0.0.1:61960] logged in with entity id 120 at (-413.0510225957986, 72.0, 82.1387876201648)
+[20:51:46] [Server thread/INFO]: Caspet joined the game
+[20:51:48] [Server thread/INFO]: [Not Secure] <Caspet> test
+[20:51:50] [Server thread/INFO]: [Not Secure] <Caspet> hello
+[20:52:27] [Server thread/INFO]: [Not Secure] <Caspet> test test test
+[20:52:29] [Server thread/INFO]: [Not Secure] <Caspet> tesssssst
+[20:52:31] [Server thread/INFO]: Caspet lost connection: Disconnected
+[20:52:31] [Server thread/INFO]: Caspet left the game
+[20:53:31] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:53:48] [Server thread/INFO]: Caspet[/127.0.0.1:62125] logged in with entity id 489 at (-464.91070314671333, 72.0, 36.80206711059667)
+[20:53:48] [Server thread/INFO]: Caspet joined the game
+[20:53:54] [Server thread/INFO]: [Not Secure] <Caspet> Hello!
+[20:53:56] [Server thread/INFO]: Caspet lost connection: Disconnected
+[20:53:56] [Server thread/INFO]: Caspet left the game
+[20:54:56] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:01:34] [Server thread/INFO]: Caspet (ec7fe4b2-d173-3ef5-a93a-68ad38ec997e) lost connection: Disconnected
+[21:04:39] [Server thread/INFO]: Caspet (ec7fe4b2-d173-3ef5-a93a-68ad38ec997e) lost connection: Disconnected
+[21:04:47] [Server thread/INFO]: Caspet (ec7fe4b2-d173-3ef5-a93a-68ad38ec997e) lost connection: Disconnected
+[21:04:53] [Server thread/INFO]: Caspet[/127.0.0.1:55991] logged in with entity id 741 at (-464.91070314671333, 72.0, 36.80206711059667)
+[21:04:53] [Server thread/INFO]: Caspet joined the game
+[21:04:55] [Server thread/INFO]: [Not Secure] <Caspet> test
+[21:04:59] [Server thread/INFO]: [Not Secure] <Caspet> BVlock this!
+[21:05:03] [Server thread/INFO]: Caspet lost connection: Disconnected
+[21:05:03] [Server thread/INFO]: Caspet left the game
+[21:06:03] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:07:30] [Server thread/INFO]: Caspet[/127.0.0.1:56186] logged in with entity id 1020 at (-448.37288303053214, 72.0, 52.73538700526401)
+[21:07:30] [Server thread/INFO]: Caspet joined the game
+[21:08:23] [Server thread/INFO]: Caspet lost connection: Disconnected
+[21:08:23] [Server thread/INFO]: Caspet left the game
+[21:09:23] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:16:28] [Server thread/INFO]: Stopping server
+[21:16:28] [Server thread/INFO]: Saving players
+[21:16:28] [Server thread/INFO]: Saving worlds
+[21:16:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:16:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:16:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:16:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:16:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:16:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:16:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
